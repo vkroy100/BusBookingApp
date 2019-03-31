@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AdminLogin"
+    android:background="#ffff81">
+
+    <Button
+        android:id="@+id/addbus"
+        android:layout_width="380dp"
+        android:layout_marginLeft="15dp"
+        android:layout_height="wrap_content"
+        android:background="#ED1C16"
+        android:textSize="20dp"
+        android:layout_marginRight="15dp"
+        android:padding="10dp"
+        android:text="Add Bus"
+        android:textColor="@color/white"
+        android:layout_marginTop="220dp" />
+
+    <Button
+        android:id="@+id/removeBus"
+        android:layout_width="380dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="340dp"
+        android:layout_marginLeft="15dp"
+        android:background="#1e7145"
+        android:textColor="@color/white"
+        android:padding="10dp"
+        android:layout_marginRight="15dp"
+        android:textSize="22dp"
+        android:text="RemoveBus"
+        />
+
+    <Button
+        android:id="@+id/Modify"
+        android:layout_width="380dp"
+        android:layout_height="wrap_content"
+        android:text="Modify"
+        android:textSize="22dp"
+        android:textAlignment="center"
+        android:padding="10dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginLeft="15dp"
+        android:textColor="@color/white"
+        android:background="#7e3878"
+        android:layout_marginTop="280dp"
+        />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="380dp"
+        android:layout_marginLeft="15dp"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:layout_marginTop="150dp"
+        android:textSize="20dp"
+
+        android:layout_marginRight="15dp"
+        android:textColorHint="@color/black"
+        android:hint="password"
+        android:inputType="numberPassword"
+       />
+   <Button
+       android:layout_width="380dp"
+       android:layout_height="wrap_content"
+       android:id="@+id/businfo"
+       android:layout_marginLeft="15dp"
+       android:layout_marginRight="15dp"
+       android:background="#da532c"
+       android:textSize="20sp"
+       android:textColor="@color/white"
+       android:text="Bus Information"
+       android:layout_marginTop="400dp"
+       android:padding="10dp"/>
+</RelativeLayout>

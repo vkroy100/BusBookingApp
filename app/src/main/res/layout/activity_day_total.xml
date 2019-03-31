@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".dayTotal"
+    android:background="#fef69e"
+    >
+
+
+    <Button
+        android:id="@+id/findBus"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="380dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:text="FindBus"
+        android:background="#0f9b8e"
+        android:textSize="20dp"
+        android:textColor="@color/white"
+        android:padding="10dp"
+         />
+
+    <AutoCompleteTextView
+        android:id="@+id/datess"
+        android:layout_width="211dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="120dp"
+        android:layout_marginLeft="60dp"
+        android:ems="10"
+        android:hint="day/01"
+        android:textSize="20dp"
+        android:inputType="number"
+        android:textColorHint="@color/black"
+        android:background="#c2ff89	"
+
+         />
+
+    <AutoCompleteTextView
+        android:id="@+id/month"
+        android:layout_width="211dp"
+        android:layout_height="40dp"
+        android:background="#c2ff89"
+        android:layout_marginTop="200dp"
+        android:layout_marginLeft="60dp"
+        android:textSize="20dp"
+        android:textColorHint="@color/black"
+        android:inputType="number"
+        android:hint="month/03"
+        />
+
+    <AutoCompleteTextView
+        android:id="@+id/year"
+        android:layout_width="211dp"
+        android:textSize="20dp"
+        android:layout_height="40dp"
+        android:background="#c2ff89"
+        android:layout_marginTop="280dp"
+        android:layout_marginLeft="60dp"
+        android:inputType="number"
+        android:textColorHint="@color/black"
+        android:hint="year/2019"
+         />
+</RelativeLayout>

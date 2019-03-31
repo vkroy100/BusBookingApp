@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#cfaf7b"
+    tools:context=".AdminBlock">
+
+    <AutoCompleteTextView
+        android:id="@+id/dayi"
+        android:layout_width="92dp"
+        android:layout_height="58dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginLeft="40dp"
+        android:textColorHint="@color/black"
+        android:inputType="number"
+        android:hint="day:03"/>
+
+    <AutoCompleteTextView
+        android:id="@+id/monthi"
+        android:layout_width="92dp"
+        android:layout_height="58dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginLeft="140dp"
+        android:textColorHint="@color/black"
+        android:inputType="number"
+        android:hint="month:02"/>
+
+    <AutoCompleteTextView
+        android:id="@+id/yeari"
+        android:layout_width="92dp"
+        android:layout_height="58dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginLeft="240dp"
+        android:inputType="number"
+        android:textColorHint="@color/black"
+        android:hint="year:2019"/>
+
+    <EditText
+        android:id="@+id/arriv"
+        android:layout_width="300dp"
+        android:layout_height="56dp"
+
+        android:layout_marginTop="120dp"
+        android:layout_marginLeft="40dp"
+        android:ems="10"
+        android:textColorHint="@color/black"
+        android:hint="arrival_time:eg:2:00 pm"
+        android:inputType="text|time"
+         />
+
+    <EditText
+        android:id="@+id/depar"
+        android:layout_width="300dp"
+        android:layout_height="56dp"
+        android:layout_marginTop="180dp"
+        android:layout_marginLeft="40dp"
+        android:textColorHint="@color/black"
+        android:ems="10"
+        android:hint="departure_time:eg 8:00 am"
+        android:inputType="text|time"
+        />
+
+    <EditText
+        android:id="@+id/busne"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:textColorHint="@color/black"
+        android:layout_marginTop="245dp"
+        android:ems="10"
+        android:hint="busname"
+        android:inputType="textPersonName"
+        />
+
+    <EditText
+        android:id="@+id/day"
+        android:layout_width="300dp"
+        android:textColorHint="@color/black"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="300dp"
+        android:ems="10"
+        android:hint="day:eg Friday"
+        android:inputType="textPersonName"
+         />
+
+    <EditText
+        android:id="@+id/totalseat"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="350dp"
+        android:layout_marginLeft="40dp"
+        android:ems="10"
+        android:hint="total Seat"
+        android:inputType="number"
+        android:textColorHint="@color/black"
+
+         />
+
+    <Button
+        android:id="@+id/addBus"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="80dp"
+        android:layout_marginRight="80dp"
+        android:layout_marginTop="440dp"
+        android:text="Add Bus"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:padding="10dp"
+        android:background="#380835"
+         />
+</RelativeLayout>

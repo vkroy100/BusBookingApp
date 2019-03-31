@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#c1fd95"
+    tools:context=".ModifyBusSchedule">
+
+    <AutoCompleteTextView
+        android:id="@+id/datem"
+        android:layout_width="80dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="67dp"
+        android:hint="03"
+        android:textColorHint="@color/black"
+        android:inputType="number" />
+
+    <AutoCompleteTextView
+        android:id="@+id/monthm"
+        android:layout_width="80dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="130dp"
+        android:layout_marginTop="67dp"
+        android:textColorHint="@color/black"
+        android:hint="03"
+        android:inputType="number" />
+
+    <AutoCompleteTextView
+        android:id="@+id/yearm"
+        android:layout_width="80dp"
+        android:layout_height="50dp"
+        android:textColorHint="@color/black"
+        android:layout_marginLeft="220dp"
+        android:layout_marginTop="67dp"
+        android:hint="2019"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/busnam"
+        android:layout_width="247dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="150dp"
+        android:textColorHint="@color/black"
+        android:layout_marginLeft="40dp"
+        android:ems="10"
+        android:hint="busname"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/ModifyArrivalTime"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginLeft="40dp"
+        android:background="#d3494e"
+        android:layout_marginTop="420dp"
+        android:textStyle="bold|italic"
+        android:textColor="@color/white"
+        android:text=" Modify Arrival Time"
+        android:textSize="18sp"
+        />
+
+    <EditText
+        android:id="@+id/newTime"
+        android:layout_width="246dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="230dp"
+        android:textColorHint="@color/black"
+        android:ems="10"
+        android:hint="2:00 pm"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/ModifyDepartTiem"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginTop="350dp"
+        android:background="#11875d"
+        android:padding="10dp"
+        android:textSize="18sp"
+        android:textColor="@color/white"
+        android:textStyle="italic|bold"
+        android:text="Modify Departure Time" />
+
+</RelativeLayout>

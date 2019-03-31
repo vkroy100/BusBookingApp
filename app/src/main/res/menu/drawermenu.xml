@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/boo" android:title="Booking" android:icon="@drawable/bharat"/>
+    <item android:id="@+id/History" android:title="History" android:icon="@drawable/book"/>
+    <item android:id="@+id/Admin" android:title="Admin" android:icon="@drawable/adm"/>
+    <item android:id="@+id/Signout" android:title="SignOut" android:icon="@color/spp"/>
+    <item android:id="@+id/deleteAccount" android:title="DeleteAccount" android:icon="@color/sp"/>
+</menu>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BookTicket"
+    android:background="#c1fd95">
+    <!--android:background="@drawable/book">-->
+
+    <EditText
+        android:id="@+id/cusName"
+        android:layout_width="251dp"
+        android:layout_height="52dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="75dp"
+        android:layout_marginRight="75dp"
+        android:ems="10"
+        android:hint="name"
+        android:textColorHint="@color/black"
+        android:textColor="@color/black"
+        android:inputType="textPersonName"
+        />
+
+    <EditText
+        android:id="@+id/cusId"
+        android:layout_width="251dp"
+        android:layout_height="52dp"
+        android:layout_marginTop="200dp"
+        android:layout_marginLeft="75dp"
+        android:layout_marginRight="75dp"
+        android:ems="10"
+        android:hint="ID No."
+        android:textColorHint="@color/black"
+        android:inputType="number"
+         />
+    <!--<EditText-->
+        <!--android:layout_width="251dp"-->
+        <!--android:layout_height="52dp"-->
+        <!--android:layout_marginLeft="75dp"-->
+        <!--android:layout_marginTop="175dp"-->
+        <!--android:inputType="number"-->
+        <!--android:hint="Seat Number"-->
+        <!--android:id="@+id/seatNo"/>-->
+    <Button
+        android:id="@+id/book"
+        android:layout_width="300dp"
+        android:layout_height="56dp"
+        android:layout_marginTop="420dp"
+        android:layout_marginLeft="55dp"
+        android:layout_marginRight="55dp"
+        android:text="Book"
+        android:textColor="@color/white"
+        android:textSize="24dp"
+        android:padding="10dp"
+        android:background="#292F33"/>
+
+    <!--<Button-->
+        <!--android:layout_width="300dp"-->
+        <!--android:layout_height="50dp"-->
+        <!--android:id="@+id/check"-->
+        <!--android:background="#3B5998"-->
+        <!--android:padding="10dp"-->
+        <!--android:layout_marginTop="240dp"-->
+        <!--android:layout_marginLeft="55dp"-->
+        <!--android:textSize="18sp"-->
+        <!--android:textColor="@color/white"-->
+        <!--android:text="Check_Seat_Availability"-->
+        <!--/>-->
+
+    <Button
+        android:id="@+id/pay"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="330dp"
+        android:layout_marginLeft="55dp"
+        android:padding="10dp"
+        android:layout_marginRight="55dp"
+        android:text="pay"
+        android:textColor="@color/white"
+        android:textSize="24dp"
+        android:background="#7B0099"
+        />
+
+</RelativeLayout>

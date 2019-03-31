@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Pay"
+    android:background="#befdb7">
+
+    <TextView
+        android:id="@+id/price"
+        android:layout_width="168dp"
+        android:layout_height="63dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginBottom="278dp"
+        android:text="10.00"
+        android:visibility="invisible"
+         />
+
+    <Button
+        android:id="@+id/buttonBuy"
+
+        android:layout_width="320dp"
+        android:layout_height="60dp"
+        android:textColor="@color/white"
+        android:textSize="23dp"
+        android:layout_marginTop="200dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:background="#be03fd"
+        android:text="Proceed to Payment"
+         />
+
+    <Button
+        android:id="@+id/finals"
+        android:layout_width="320dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginTop="300dp"
+        android:textSize="23dp"
+        android:textColor="@color/white"
+        android:background="#2976bb"
+        android:text="Payment  Completed" />
+
+</RelativeLayout>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#454140</color>
+    <color name="colorPrimaryDark">#686256</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="ss">#abababab</color>
+    <color name="sp">#68a0a0</color>
+    <color name="spp">#9dc209</color>
+    <color name="tr">#000000</color>
+    <color name="ff">#770000</color>
+    <color name="gg">#008</color>
+    <color name="darkgray">#6c6c6c</color>
+    <!--<color name="sppp">#ed8a63</color>-->
+    <!--<color name="sppp">#9068be</color>-->
+    <!--<color name="sppp">#6ed3cf</color>-->
+    <!--<color name="sppp">#e62739</color>-->
+    <!--<color name="sppp">#bd8c7d</color>-->
+    <!--<color name="sppp">#005995</color>-->
+    <color name="sppp"> #00303F</color>
+    <!--<color name="sppp">#00c07f</color>-->
+</resources>
