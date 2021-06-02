@@ -1,4 +1,5 @@
-# BusBookingApp is basically an online ticket booking application for bus that have been built using android studio framework, it has
+# Bus Ticket Booking application 
+This application is basically an online ticket booking application for bus that have been built using android studio framework, it has
 lot of features, like it starts from the user opening the application and it has google authentication
 implemented using firbase services , the user has to log into this application with their google account,
 Login have been restricted such that only users having iit bhilai mail id can login into this application. After that
